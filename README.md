@@ -46,11 +46,7 @@ You can host the bot locally, or on a cloud hosting platform like PythonAnywhere
 
 ## Demo
 
-Videos showing the bot in action:
+Check out these demo videos to see ChatGPTCrafters in action!
 
-- Video 1:
-    ![Demo Video 1](Demo/RPReplay_Final1683155952.mp4)
-- Video 2:
-    ![Demo Video 2](Demo/RPReplay_Final1683165449.mp4)
-- Video 3:
-    ![Demo Video 3](Demo/RPReplay_Final1683165605.mp4)
+1. [ChatGPTCrafters Demo: Text-to-Speech](https://www.youtube.com/shorts/N2zGGnI309E)
+2. [ChatGPTCrafters Demo: Generating a Workout Routine](https://www.youtube.com/shorts/nw5coMEZZC0)
