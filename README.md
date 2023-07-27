@@ -44,4 +44,13 @@ Remember, you need to have access to OpenAI API, Eleven Labs API, and a Telegram
 
 You can host the bot locally, or on a cloud hosting platform like PythonAnywhere. If you choose to host the bot on a cloud platform, make sure the platform supports long-running processes, as the bot needs to be running continuously to listen for and respond to messages.
 
-# Demo
+## Demo
+
+Below are the demo videos showing the bot in action:
+
+- Video 1:
+    ![Demo Video 1](Demo/RPReplay_Final1683155952.mp4)
+- Video 2:
+    ![Demo Video 2](Demo/RPReplay_Final1683165449.mp4)
+- Video 3:
+    ![Demo Video 3](Demo/RPReplay_Final1683165605.mp4)
