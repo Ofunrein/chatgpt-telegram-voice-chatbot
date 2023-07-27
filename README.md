@@ -46,7 +46,7 @@ You can host the bot locally, or on a cloud hosting platform like PythonAnywhere
 
 ## Demo
 
-Below are the demo videos showing the bot in action:
+Videos showing the bot in action:
 
 - Video 1:
     ![Demo Video 1](Demo/RPReplay_Final1683155952.mp4)
