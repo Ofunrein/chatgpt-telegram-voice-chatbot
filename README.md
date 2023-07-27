@@ -24,4 +24,24 @@ This project is a testament to the rapid advances in AI technology and its poten
 
 Just replace "YOUR_OPENAI_API_KEY_HERE", "YOUR_ELEVEN_LABS_API_KEY_HERE", and "YOUR_TELEGRAM_API_TOKEN_HERE" with your actual API keys and token.
 
-#Demo
+## Installation
+
+To get started with this project, follow the steps below:
+
+1. Clone this repository to your local machine.
+2. Install the necessary Python libraries by running the command: `pip install -r requirements.txt`.
+3. You'll need to replace "YOUR_OPENAI_API_KEY_HERE", "YOUR_ELEVEN_LABS_API_KEY_HERE", and "YOUR_TELEGRAM_API_TOKEN_HERE" with your actual API keys and token in the `chatgpt-telegram-voice-chatbot.py` file.
+
+## Running the bot
+
+1. Run the bot by executing the python script: `python chatgpt-telegram-voice-chatbot.py`. This will start the bot, and it will begin listening for incoming messages on Telegram.
+2. When you send a message to the bot on Telegram, it will process the message, generate a response using OpenAI's GPT-3 model, and send a text and audio response back to you.
+3. If you need to stop the bot, you can simply interrupt the script execution with `Ctrl+C`.
+
+Remember, you need to have access to OpenAI API, Eleven Labs API, and a Telegram bot token to make this bot work. Also, be aware that the APIs used in this project are not free and come with their own pricing. Make sure you are aware of the costs involved before using this project.
+
+## Hosting the bot
+
+You can host the bot locally, or on a cloud hosting platform like PythonAnywhere. If you choose to host the bot on a cloud platform, make sure the platform supports long-running processes, as the bot needs to be running continuously to listen for and respond to messages.
+
+# Demo
