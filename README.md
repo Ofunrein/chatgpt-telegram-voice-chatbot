@@ -1,6 +1,6 @@
 # ChatGPTCrafters - Your Customizable, Multilingual Personal Mobile Assistant
 
-<img src="./images/screenshot.jpg" alt="Screenshot of the bot" width="500" height="1058">
+
 
 In recent years, OpenAI's GPT-3 has revolutionized the world of AI, offering human-like text generation that can be used in a multitude of applications. Among these, personal AI assistants have shown great potential in tasks ranging from scheduling meetings to answering queries with human-like understanding and fluency.
 
@@ -47,6 +47,8 @@ Remember, you need to have access to OpenAI API, Eleven Labs API, and a Telegram
 You can host the bot locally, or on a cloud hosting platform like PythonAnywhere. If you choose to host the bot on a cloud platform, make sure the platform supports long-running processes, as the bot needs to be running continuously to listen for and respond to messages.
 
 ## Demo
+
+<img src="./images/screenshot.jpg" alt="Screenshot of the bot" width="500" height="1058">
 
 Check out these demo videos to see ChatGPTCrafters in action!
 
