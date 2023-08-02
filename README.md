@@ -28,17 +28,35 @@ Just replace "YOUR_OPENAI_API_KEY_HERE", "YOUR_ELEVEN_LABS_API_KEY_HERE", and "Y
 
 ## Installation
 
-To get started with this project, follow the steps below:
+1. Clone the repository:
 
-1. Clone this repository to your local machine.
-2. Install the necessary Python libraries by running the command: `pip install -r requirements.txt`.
-3. You'll need to replace "YOUR_OPENAI_API_KEY_HERE", "YOUR_ELEVEN_LABS_API_KEY_HERE", and "YOUR_TELEGRAM_API_TOKEN_HERE" with your actual API keys and token in the `chatgpt-telegram-voice-chatbot.py` file.
+    ```bash
+    git clone https://github.com/Ofunrein/lucidity-ai.git
+    ```
 
-## Running the bot
+2. Install dependencies:
 
-1. Run the bot by executing the python script: `python chatgpt-telegram-voice-chatbot.py`. This will start the bot, and it will begin listening for incoming messages on Telegram.
-2. When you send a message to the bot on Telegram, it will process the message, generate a response using OpenAI's GPT-3 model, and send a text and audio response back to you.
-3. If you need to stop the bot, you can simply interrupt the script execution with `Ctrl+C`.
+    ```bash
+    npm install
+    ```
+
+3. Configure the application:
+
+   You'll need to replace "YOUR_OPENAI_API_KEY_HERE", "YOUR_ELEVEN_LABS_API_KEY_HERE", and "YOUR_TELEGRAM_API_TOKEN_HERE" with your actual API keys and token in the `chatgpt-telegram-voice-chatbot.py` file.
+
+## Running the Application
+
+1. Start the application:
+
+    ```bash
+    npm run dev
+    ```
+
+   This will start the application, and it will begin listening for incoming requests.
+
+2. When you send a request to the application, it will process the request, generate a response using OpenAI's GPT-4 model, and send a response back to you.
+
+3. If you need to stop the application, you can simply interrupt the script execution with `Ctrl+C`.
 
 Remember, you need to have access to OpenAI API, Eleven Labs API, and a Telegram bot token to make this bot work. Also, be aware that the APIs used in this project are not free and come with their own pricing. Make sure you are aware of the costs involved before using this project.
 
