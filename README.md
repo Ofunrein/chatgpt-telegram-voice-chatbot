@@ -29,25 +29,22 @@ Just replace "YOUR_OPENAI_API_KEY_HERE", "YOUR_ELEVEN_LABS_API_KEY_HERE", and "Y
 ## Installation
 
 1. Clone this repository to your local machine:
-
     ```bash
     git clone https://github.com/Ofunrein/lucidity-ai.git
     ```
-
 2. Navigate to the directory of the cloned repository in your terminal.
 
 3. Install the necessary Python libraries:
-
     ```bash
     pip install -r requirements.txt
     ```
-
+    
 4. Replace placeholders in the Python script with your actual API keys and token:
 
     - "YOUR_OPENAI_API_KEY_HERE"
     - "YOUR_ELEVEN_LABS_API_KEY_HERE"
     - "YOUR_TELEGRAM_API_TOKEN_HERE"
-
+  
    These should be replaced in the `chatgpt-telegram-voice-chatbot.py` file.
 
 ## Running the bot
@@ -55,7 +52,6 @@ Just replace "YOUR_OPENAI_API_KEY_HERE", "YOUR_ELEVEN_LABS_API_KEY_HERE", and "Y
 1. Make sure your terminal is open in the directory of the `chatgpt-telegram-voice-chatbot.py` script.
 
 2. Start the bot by executing the Python script:
-
     ```bash
     python chatgpt-telegram-voice-chatbot.py
     ```
