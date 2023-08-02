@@ -28,35 +28,48 @@ Just replace "YOUR_OPENAI_API_KEY_HERE", "YOUR_ELEVEN_LABS_API_KEY_HERE", and "Y
 
 ## Installation
 
-1. Clone the repository:
+1. Clone this repository to your local machine:
 
     ```bash
     git clone https://github.com/Ofunrein/lucidity-ai.git
     ```
 
-2. Install dependencies:
+2. Navigate to the directory of the cloned repository in your terminal.
+
+3. Install the necessary Python libraries:
 
     ```bash
-    npm install
+    pip install -r requirements.txt
     ```
 
-3. Configure the application:
+4. Replace placeholders in the Python script with your actual API keys and token:
 
-   You'll need to replace "YOUR_OPENAI_API_KEY_HERE", "YOUR_ELEVEN_LABS_API_KEY_HERE", and "YOUR_TELEGRAM_API_TOKEN_HERE" with your actual API keys and token in the `chatgpt-telegram-voice-chatbot.py` file.
+    - "YOUR_OPENAI_API_KEY_HERE"
+    - "YOUR_ELEVEN_LABS_API_KEY_HERE"
+    - "YOUR_TELEGRAM_API_TOKEN_HERE"
 
-## Running the Application
+   These should be replaced in the `chatgpt-telegram-voice-chatbot.py` file.
 
-1. Start the application:
+## Running the bot
+
+1. Make sure your terminal is open in the directory of the `chatgpt-telegram-voice-chatbot.py` script.
+
+2. Start the bot by executing the Python script:
 
     ```bash
-    npm run dev
+    python chatgpt-telegram-voice-chatbot.py
     ```
 
-   This will start the application, and it will begin listening for incoming requests.
+   This will start the bot and it will begin listening for incoming messages on Telegram.
 
-2. When you send a request to the application, it will process the request, generate a response using OpenAI's GPT-4 model, and send a response back to you.
+3. Use the bot on Telegram:
 
-3. If you need to stop the application, you can simply interrupt the script execution with `Ctrl+C`.
+   - Send a message to the bot.
+   - The bot will process the message, generate a response using OpenAI's GPT-3 model, and send a text and audio response back to you.
+
+4. If you need to stop the bot:
+
+    - Interrupt the script execution with `Ctrl+C`.
 
 Remember, you need to have access to OpenAI API, Eleven Labs API, and a Telegram bot token to make this bot work. Also, be aware that the APIs used in this project are not free and come with their own pricing. Make sure you are aware of the costs involved before using this project.
 
