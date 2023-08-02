@@ -1,6 +1,6 @@
 # ChatGPTCrafters - Your Customizable, Multilingual Personal Mobile Assistant
 
-
+![Description of the image](./images/IMG_3614.jpg)
 
 In recent years, OpenAI's GPT-3 has revolutionized the world of AI, offering human-like text generation that can be used in a multitude of applications. Among these, personal AI assistants have shown great potential in tasks ranging from scheduling meetings to answering queries with human-like understanding and fluency.
 
