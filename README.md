@@ -1,5 +1,7 @@
 # ChatGPTCrafters - Your Customizable, Multilingual Personal Mobile Assistant
 
+![Screenshot of the bot](./images/screenshot.jpg)
+
 In recent years, OpenAI's GPT-3 has revolutionized the world of AI, offering human-like text generation that can be used in a multitude of applications. Among these, personal AI assistants have shown great potential in tasks ranging from scheduling meetings to answering queries with human-like understanding and fluency.
 
 Inspired by these technological advances, I decided to build my own personal AI assistant, which I named ChatGPTCrafters. This project allowed me to have my own AI assistant on my mobile device via Telegram, a cloud-based instant messaging app. The intention was to create a personal assistant that can hold meaningful conversations, provide insightful responses, and be easily accessible through my mobile device.
